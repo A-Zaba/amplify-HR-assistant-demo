@@ -2,7 +2,7 @@ import { defineBackend } from "@aws-amplify/backend";
 import { auth } from "./auth/resource";
 import { data } from "./data/resource";
 import { Effect, PolicyStatement } from "aws-cdk-lib/aws-iam";
-import { personalAssistantFunction, MODEL_ID } from "./functions/personal-assistant/resource";
+import { personalAssistantFunction, MODEL_ID } from "./functions/HR-assistant/resource";
 
 export const backend = defineBackend({
   auth,

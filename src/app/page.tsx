@@ -14,8 +14,8 @@ export default function Home() {
         alignItems="center"
         padding="1rem"
       >
-        <Text fontWeight="bold">{user?.signInDetails?.loginId}</Text>
-        <Heading level={3}>Travel Personal Assistant</Heading>
+        <Text fontWeight="bold">{"Welcome, " + user?.signInDetails?.loginId}</Text>
+        <Heading level={3}>HR Personal Assistant</Heading>
         <Button onClick={signOut} size="small" variation="destructive">
           Sign out
         </Button>
