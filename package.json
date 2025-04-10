@@ -11,7 +11,7 @@
   "dependencies": {
     "@aws-amplify/ui-react": "^6.4.0",
     "@aws-sdk/client-bedrock-runtime": "^3.654.0",
-    "aws-amplify": "^6.6.2",
+    "aws-amplify": "^6.14.2",
     "next": "14.2.12",
     "react": "^18",
     "react-dom": "^18"

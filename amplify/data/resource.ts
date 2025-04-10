@@ -1,5 +1,5 @@
 import { type ClientSchema, a, defineData } from "@aws-amplify/backend";
-import { personalAssistantFunction } from "../functions/HR-assistant/resource";
+import { personalAssistantFunction } from "../functions/hr-assistant/resource";
 
 const schema = a.schema({
   chat: a
