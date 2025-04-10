@@ -2,7 +2,7 @@ import { defineBackend } from "@aws-amplify/backend";
 import { auth } from "./auth/resource";
 import { data } from "./data/resource";
 import { Effect, Policy, PolicyStatement } from "aws-cdk-lib/aws-iam";
-import { personalAssistantFunction, MODEL_ID } from "./functions/hr-assistant/resource";
+import { personalAssistantFunction, MODEL_ID } from "./functions/HR1-assistant/resource";
 import { CfnApp } from "aws-cdk-lib/aws-pinpoint";
 import { Stack } from "aws-cdk-lib/core";
 
