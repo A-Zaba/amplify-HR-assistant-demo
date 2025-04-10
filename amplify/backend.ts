@@ -17,7 +17,7 @@ const analyticsStack = backend.createStack("analytics-stack");
 
 // create a Pinpoint app
 const pinpoint = new CfnApp(analyticsStack, "Pinpoint", {
-  name: "myPinpointApp",
+  name: "Proserve Fridai Analytics",
 });
 
 // create an IAM policy to allow interacting with Pinpoint
